@@ -1,6 +1,7 @@
 import { FaGithub, FaFileAlt } from "react-icons/fa";
 import profile from "../assets/profile.jpg";
 import TypingText from "./TypingText";
+import resume from "../assets/resume.pdf";
 
 export default function Hero() {
   return (
@@ -65,7 +66,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href={resume}
               className="px-6 py-3 rounded-full text-gray-300
                          hover:text-white hover:bg-white/5 transition
                          flex items-center gap-2"
