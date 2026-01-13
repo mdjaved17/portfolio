@@ -16,17 +16,26 @@ const projects = [
       "A modern resort booking website featuring authentication, CRUD operations, and clean UI design.",
     image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
     tech: ["Node.js", "Express", "MongoDB", "EJS"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/mdjaved17/resorts_booking",
+    demo: "https://resorts-booking-2.onrender.com/listings",
   },
   {
-    title: "Book Discovery App",
+    title: "Book Search App",
     description:
       "A book discovery app that fetches and displays data from Google Books API with a user-friendly interface.",
     image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
     tech: ["JavaScript", "Google Books API", "CSS"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/mdjaved17/bookDetails",
+    demo: "https://book-details.vercel.app/",
+  },
+  {
+    title: "Emplooye Management System",
+    description:
+      "A responsive employee management system built to perform CRUD operations on employee records, leveraging browser localStorage for persistent client-side data storage.",
+    image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tech: ["JavaScript", "Google Books API", "CSS"],
+    github: "https://github.com/mdjaved17/empManagement",
+    demo: "https://emp-management-nine.vercel.app/",
   },
 ];
 

@@ -16,7 +16,7 @@ const skillGroups = [
   {
     title: "Frontend",
     icon: <FaLaptopCode className="w-6 h-6 text-indigo-400" />,
-    skills: ["React.js", "Tailwind CSS", "Bootstrap"],
+    skills: ["Redux", "React.js", "Tailwind CSS", "Bootstrap"],
   },
   {
     title: "Backend",
