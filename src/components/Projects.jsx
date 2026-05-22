@@ -2,12 +2,33 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
+  title: "GenAI Interview Preparation Platform",
+  description:
+    "An AI-powered interview preparation platform where users can upload resumes, practice technical & HR interviews, and receive intelligent feedback.",
+  image:
+    "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1470&auto=format&fit=crop",
+  tech: ["React", "Node.js", "MongoDB", "Firebase", "Razorpay"],
+  github: "#",
+  demo: "#",
+},
+
+{
+  title: "AI Virtual Assistant",
+  description:
+    "A JARVIS-style AI virtual assistant with voice input/output, Gemini AI integration, JWT authentication, and assistant customization features.",
+  image:
+    "https://images.unsplash.com/photo-1676299081847-824916de030a?q=80&w=1470&auto=format&fit=crop",
+  tech: ["React", "Node.js", "Express", "MongoDB", "Gemini AI"],
+  github: "https://github.com/mdjaved17/Ai-agent-interview",
+  demo: "#",
+},
+  {
     title: "Vehicle Rental Platform",
     description:
       "A full-stack vehicle rental system with real-time booking, user management, and scalable backend APIs.",
     image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
     tech: ["React", "Node.js", "Express", "MySQL"],
-    github: "#",
+    github: "https://github.com/mdjaved17/Ai-Virtua-Assistant",
     demo: "#",
   },
   {

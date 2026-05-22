@@ -5,38 +5,59 @@ import {
   FaDatabase,
   FaTerminal,
   FaTools,
+  FaBrain,
 } from "react-icons/fa";
 
 const skillGroups = [
   {
-    title: "Web Development",
-    icon: <FaCode className="w-6 h-6 text-indigo-400" />,
-    skills: ["HTML5", "CSS3", "JavaScript (ES6+)"],
+    title: "Languages",
+    icon: <FaTerminal className="w-6 h-6 text-indigo-400" />,
+    skills: ["Java", "Python", "C++", "JavaScript", "SQL"],
   },
   {
     title: "Frontend",
     icon: <FaLaptopCode className="w-6 h-6 text-indigo-400" />,
-    skills: ["Redux", "React.js", "Tailwind CSS", "Bootstrap"],
+    skills: ["React.js", "HTML", "CSS", "Redux Toolkit"],
   },
   {
     title: "Backend",
     icon: <FaServer className="w-6 h-6 text-indigo-400" />,
-    skills: ["Node.js", "Express.js", "REST APIs"],
+    skills: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Authentication",
+      "Authorization",
+    ],
   },
   {
     title: "Databases",
     icon: <FaDatabase className="w-6 h-6 text-indigo-400" />,
-    skills: ["MySQL", "MongoDB"],
+    skills: ["MongoDB", "MySQL"],
   },
   {
-    title: "Programming",
-    icon: <FaTerminal className="w-6 h-6 text-indigo-400" />,
-    skills: ["Java", "C++", "Python"],
+    title: "Core Concepts",
+    icon: <FaCode className="w-6 h-6 text-indigo-400" />,
+    skills: [
+      "DSA",
+      "OOP",
+      "DBMS",
+      "Problem Solving",
+    ],
   },
   {
-    title: "Tools",
-    icon: <FaTools className="w-6 h-6 text-indigo-400" />,
-    skills: ["Git", "GitHub", "Docker", "AWS"],
+    title: "AI & Tools",
+    icon: <FaBrain className="w-6 h-6 text-indigo-400" />,
+    skills: [
+      "ChatGPT",
+      "GitHub Copilot",
+      "Prompt Engineering",
+      "Git",
+      "GitHub",
+      "AWS",
+      "VS Code",
+      "Postman",
+    ],
   },
 ];
 
@@ -64,8 +85,10 @@ export default function Skills() {
                          border border-white/10 transition-all duration-300
                          hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-500/20"
             >
-              <div className="mb-6 inline-flex p-3 rounded-xl bg-white/10
-                              group-hover:scale-110 transition-transform">
+              <div
+                className="mb-6 inline-flex p-3 rounded-xl bg-white/10
+                           group-hover:scale-110 transition-transform"
+              >
                 {group.icon}
               </div>
 

@@ -45,7 +45,7 @@ export default function OpenSource() {
                     <FaAward className="w-6 h-6 text-indigo-400" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold">150+</p>
+                    <p className="text-2xl font-bold">500+</p>
                     <p className="text-sm text-gray-400">
                       DSA Problems Solved
                     </p>
