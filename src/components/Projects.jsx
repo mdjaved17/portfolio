@@ -8,7 +8,7 @@ const projects = [
   image:
     "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1470&auto=format&fit=crop",
   tech: ["React", "Node.js", "MongoDB", "Firebase", "Razorpay"],
-  github: "#",
+  github: "https://github.com/mdjaved17/Ai-agent-interview",
   demo: "#",
 },
 
@@ -19,7 +19,7 @@ const projects = [
   image:
     "https://images.unsplash.com/photo-1676299081847-824916de030a?q=80&w=1470&auto=format&fit=crop",
   tech: ["React", "Node.js", "Express", "MongoDB", "Gemini AI"],
-  github: "https://github.com/mdjaved17/Ai-agent-interview",
+  github: "https://github.com/mdjaved17/Ai-Virtual-Assistant",
   demo: "#",
 },
   {
@@ -28,7 +28,7 @@ const projects = [
       "A full-stack vehicle rental system with real-time booking, user management, and scalable backend APIs.",
     image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
     tech: ["React", "Node.js", "Express", "MySQL"],
-    github: "https://github.com/mdjaved17/Ai-Virtua-Assistant",
+    github: "https://github.com/mdjaved17/carRental",
     demo: "#",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     description:
       "A responsive employee management system built to perform CRUD operations on employee records, leveraging browser localStorage for persistent client-side data storage.",
     image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tech: ["JavaScript", "Google Books API", "CSS"],
+    tech: ["JavaScript", "HTML", "CSS", "LocalStorage"],
     github: "https://github.com/mdjaved17/empManagement",
     demo: "https://emp-management-nine.vercel.app/",
   },

@@ -1,7 +1,7 @@
 import { FaGithub, FaFileAlt } from "react-icons/fa";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/pfp.jpeg";
 import TypingText from "./TypingText";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/javed.pdf";
 
 export default function Hero() {
   return (

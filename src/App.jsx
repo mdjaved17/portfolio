@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Stars from "./components/Stars";
 import OpenSource from "./components/OpenSource";
+import Experience from "./components/experience";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* Content offset for fixed navbar */}
       
         <Hero />
+        <Experience />
         <Skills />
         <Projects />
         <OpenSource />
