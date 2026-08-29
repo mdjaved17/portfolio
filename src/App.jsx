@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Stars from "./components/Stars";
 import OpenSource from "./components/OpenSource";
-import Experience from "./components/experience";
+import Experience from "./components/Experience";
 
 function App() {
   return (
